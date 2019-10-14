@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc3a9e2f-abf3-4c72-a544-051e0406614f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/java/com/example/android/aboutme/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/java/com/example/android/aboutme/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/java/com/example/android/aboutme/MyName.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/java/com/example/android/aboutme/MyName.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/font/roboto.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/font/roboto.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/screenshots/AboutMeScreenshots.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/screenshots/AboutMeScreenshots.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeDataBinding-Starter/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/java/com/example/android/aboutme/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/java/com/example/android/aboutme/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/font/roboto.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/font/roboto.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/screenshots/AboutMeScreenshots.png" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/screenshots/AboutMeScreenshots.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutMeInteractive-Starter/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutMeInteractive-Starter/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/java/com/example/android/navigation/GameFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/java/com/example/android/navigation/GameFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/java/com/example/android/navigation/GameOverFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/java/com/example/android/navigation/GameOverFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/java/com/example/android/navigation/GameWonFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/java/com/example/android/navigation/GameWonFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/java/com/example/android/navigation/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/java/com/example/android/navigation/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AndroidTrivia-Starter/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AndroidTrivia-Starter/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/../CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/ic_dessert_clicker-web.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/ic_dessert_clicker-web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/java/com/example/android/dessertclicker/DessertTimer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/java/com/example/android/dessertclicker/DessertTimer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/java/com/example/android/dessertclicker/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/java/com/example/android/dessertclicker/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/bakery_back.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/bakery_back.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/cupcake.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/cupcake.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/donut.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/donut.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/eclair.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/eclair.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/froyo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/froyo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/gingerbread.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/gingerbread.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/honeycomb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/honeycomb.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/icecreamsandwich.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/icecreamsandwich.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/jellybean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/jellybean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/kitkat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/kitkat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/lollipop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/lollipop.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/marshmallow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/marshmallow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/nougat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/nougat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/oreo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/oreo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/white_box.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/drawable/white_box.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/menu/main_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/menu/main_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-anydpi-v26/ic_dessert_clicker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-anydpi-v26/ic_dessert_clicker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-anydpi-v26/ic_dessert_clicker_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-anydpi-v26/ic_dessert_clicker_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-hdpi/ic_dessert_clicker.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-hdpi/ic_dessert_clicker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-hdpi/ic_dessert_clicker_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-hdpi/ic_dessert_clicker_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-mdpi/ic_dessert_clicker.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-mdpi/ic_dessert_clicker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-mdpi/ic_dessert_clicker_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-mdpi/ic_dessert_clicker_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-xhdpi/ic_dessert_clicker.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-xhdpi/ic_dessert_clicker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-xhdpi/ic_dessert_clicker_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-xhdpi/ic_dessert_clicker_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-xxhdpi/ic_dessert_clicker.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-xxhdpi/ic_dessert_clicker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-xxhdpi/ic_dessert_clicker_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-xxhdpi/ic_dessert_clicker_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-xxxhdpi/ic_dessert_clicker.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-xxxhdpi/ic_dessert_clicker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-xxxhdpi/ic_dessert_clicker_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/mipmap-xxxhdpi/ic_dessert_clicker_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/values/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DessertClicker-Starter/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../DessertClicker-Starter/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiceImages.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../DiceImages.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessTheWord-Starter/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessTheWord-Starter/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/java/com/example/android/guesstheword/screens/game/GameFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/java/com/example/android/guesstheword/screens/game/GameFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/java/com/example/android/guesstheword/screens/game/GameViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/java/com/example/android/guesstheword/screens/game/GameViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/java/com/example/android/guesstheword/screens/score/ScoreFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessTheWord-Starter/app/src/main/java/com/example/android/guesstheword/screens/score/ScoreFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessTheWord-Starter/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheWord-Starter/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessTheWord-Starter/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/ic_launcher-web.png" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/ic_launcher-web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/java/com/example/android/marsrealestate/BindingAdapters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/java/com/example/android/marsrealestate/BindingAdapters.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/java/com/example/android/marsrealestate/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/java/com/example/android/marsrealestate/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/java/com/example/android/marsrealestate/detail/DetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/java/com/example/android/marsrealestate/detail/DetailFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/java/com/example/android/marsrealestate/detail/DetailViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/java/com/example/android/marsrealestate/detail/DetailViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/java/com/example/android/marsrealestate/detail/DetailViewModelFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/java/com/example/android/marsrealestate/detail/DetailViewModelFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/java/com/example/android/marsrealestate/network/MarsApiService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/java/com/example/android/marsrealestate/network/MarsApiService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/java/com/example/android/marsrealestate/network/MarsProperty.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/java/com/example/android/marsrealestate/network/MarsProperty.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/java/com/example/android/marsrealestate/overview/OverviewFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/java/com/example/android/marsrealestate/overview/OverviewFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/java/com/example/android/marsrealestate/overview/OverviewViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/java/com/example/android/marsrealestate/overview/OverviewViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/java/com/example/android/marsrealestate/overview/PhotoGridAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/java/com/example/android/marsrealestate/overview/PhotoGridAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/drawable/ic_broken_image.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/drawable/ic_broken_image.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/drawable/ic_connection_error.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/drawable/ic_connection_error.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/drawable/ic_for_sale_outline.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/drawable/ic_for_sale_outline.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/drawable/loading_animation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/drawable/loading_animation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/drawable/loading_img.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/drawable/loading_img.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/layout/fragment_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/layout/fragment_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/layout/fragment_overview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/layout/fragment_overview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/layout/grid_view_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/layout/grid_view_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MarsRealEstate-Starter/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../MarsRealEstate-Starter/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerViewClickHandler-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleepdetail/SleepDetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../RecyclerViewClickHandler-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleepdetail/SleepDetailFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerViewClickHandler-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleepdetail/SleepDetailViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../RecyclerViewClickHandler-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleepdetail/SleepDetailViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerViewClickHandler-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleepdetail/SleepDetailViewModelFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../RecyclerViewClickHandler-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleepdetail/SleepDetailViewModelFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerViewClickHandler-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/BindingUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../RecyclerViewClickHandler-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/BindingUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerViewClickHandler-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepNightAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../RecyclerViewClickHandler-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepNightAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerViewClickHandler-Starter/app/src/main/res/layout/fragment_sleep_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RecyclerViewClickHandler-Starter/app/src/main/res/layout/fragment_sleep_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerViewClickHandler-Starter/app/src/main/res/layout/text_item_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RecyclerViewClickHandler-Starter/app/src/main/res/layout/text_item_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerViewDiffUtilDataBinding-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepNightAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../RecyclerViewDiffUtilDataBinding-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepNightAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerViewDiffUtilDataBinding-Starter/app/src/main/res/layout/text_item_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RecyclerViewDiffUtilDataBinding-Starter/app/src/main/res/layout/text_item_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerViewFundamentals-Starter/app/src/main/res/drawable/ic_sleep_active.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RecyclerViewFundamentals-Starter/app/src/main/res/drawable/ic_sleep_active.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerViewGridLayout-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/BindingUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../RecyclerViewGridLayout-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/BindingUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerViewGridLayout-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepNightAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../RecyclerViewGridLayout-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepNightAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerViewGridLayout-Starter/app/src/main/res/layout/text_item_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RecyclerViewGridLayout-Starter/app/src/main/res/layout/text_item_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerViewHeaders-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleepdetail/SleepDetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../RecyclerViewHeaders-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleepdetail/SleepDetailFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerViewHeaders-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleepdetail/SleepDetailViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../RecyclerViewHeaders-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleepdetail/SleepDetailViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerViewHeaders-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleepdetail/SleepDetailViewModelFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../RecyclerViewHeaders-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleepdetail/SleepDetailViewModelFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerViewHeaders-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/BindingUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../RecyclerViewHeaders-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/BindingUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerViewHeaders-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepNightAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../RecyclerViewHeaders-Starter/app/src/main/java/com/example/android/trackmysleepquality/sleeptracker/SleepNightAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerViewHeaders-Starter/app/src/main/res/layout/fragment_sleep_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RecyclerViewHeaders-Starter/app/src/main/res/layout/fragment_sleep_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecyclerViewHeaders-Starter/app/src/main/res/layout/text_item_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RecyclerViewHeaders-Starter/app/src/main/res/layout/text_item_view.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_29" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/database/SleepNight.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#0#615#0" expanded="true" />
+                <element signature="e#675#766#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/database/SleepDatabaseDao.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+              <folding>
+                <element signature="e#675#732#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/database/SleepDatabase.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#615#0" expanded="true" />
+                <element signature="e#675#795#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/android/trackmysleepquality/SleepDatabaseTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="56" column="10" lean-forward="true" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#615#0" expanded="true" />
+                <element signature="e#666#1177#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/database/SleepNight.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/database/SleepDatabaseDao.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/database/SleepDatabase.kt" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/example/android/trackmysleepquality/SleepDatabaseTest.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TrackMySleepQuality-Starter" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="TrackMySleepQuality-Starter" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="TrackMySleepQuality-Starter" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="trackmysleepquality" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrackMySleepQuality-Starter" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="trackmysleepquality" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrackMySleepQuality-Starter" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="trackmysleepquality" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android Instrumented Tests.SleepDatabaseTest">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SleepDatabaseTest" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.example.android.trackmysleepquality.SleepDatabaseTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android Instrumented Tests.SleepDatabaseTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc3a9e2f-abf3-4c72-a544-051e0406614f" name="Default Changelist" comment="" />
+      <created>1571032172264</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571032172264</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SleepDatabaseTest - 2019.10.14 at 13h 19m 37s.xml">
+      <configuration name="SleepDatabaseTest" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" visible="true" weight="0.3297568" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" weight="0.32891566" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Android Profiler" />
+      <window_info anchor="bottom" id="Debug" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.32891566" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/database/SleepNight.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#615#0" expanded="true" />
+            <element signature="e#675#766#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/database/SleepDatabaseDao.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+          <folding>
+            <element signature="e#675#732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/trackmysleepquality/database/SleepDatabase.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#615#0" expanded="true" />
+            <element signature="e#675#795#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/android/trackmysleepquality/SleepDatabaseTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="56" column="10" lean-forward="true" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#615#0" expanded="true" />
+            <element signature="e#666#1177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
